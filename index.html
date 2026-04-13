@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coursework Task Board</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="container">
+    <h1>Coursework Task Board</h1>
+    <p>Modernized planning board that turns a legacy assignment idea into a practical UI project.</p>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <input id="taskInput" type="text" placeholder="Add a new task">
+      <select id="priorityInput">
+        <option value="low">Low</option>
+        <option value="medium" selected>Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="addTaskButton">Add Task</button>
+    </section>
+    <section id="board" class="board"></section>
+  </main>
+
+  <template id="columnTemplate">
+    <article class="column">
+      <h2 class="column-title"></h2>
+      <div class="column-items"></div>
+    </article>
+  </template>
+
+  <template id="taskTemplate">
+    <div class="task">
+      <div class="task-title"></div>
+      <div class="task-meta"></div>
+      <button class="task-advance">Advance</button>
+    </div>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
