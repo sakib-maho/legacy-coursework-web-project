@@ -44,3 +44,5 @@ Temporary Items
 
 # Python test cache
 .pytest_cache/
+__pycache__/
+*.pyc
