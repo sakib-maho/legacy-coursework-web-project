@@ -18,14 +18,7 @@ It demonstrates clean front-end structure, JSON-driven rendering, and lightweigh
 - Seed data loaded from JSON
 - Schema tests for task data quality
 
-## Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Python `unittest` for data validation
-
-## Run Locally
+## Quick Start
 
 ```bash
 git clone https://github.com/sakib-maho/legacy-coursework-web-project.git
@@ -35,11 +28,22 @@ python3 -m http.server 8000
 
 Open `http://localhost:8000`.
 
-## Run Tests
+## Tests
 
 ```bash
 python3 -m unittest discover -s tests -p "test_*.py"
 ```
+
+## License
+
+MIT License. See `LICENSE`.
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Python `unittest` for data validation
 
 ## Project Structure
 
@@ -54,7 +58,3 @@ legacy-coursework-web-project/
 └── tests/
     └── test_tasks_schema.py
 ```
-
-## License
-
-MIT License. See `LICENSE`.
