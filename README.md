@@ -1,5 +1,12 @@
 # Legacy Coursework Web Project (Modernized)
 
+<!-- BrandCloud:readme-standard -->
+[![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Showcase](https://img.shields.io/badge/Portfolio-Showcase-blue.svg)](#)
+
+_Part of the `sakib-maho` project showcase series with consistent documentation and quality standards._
+
 This repository upgrades a legacy coursework placeholder into a functional, modern task-board web app.
 It demonstrates clean front-end structure, JSON-driven rendering, and lightweight dataset validation tests.
 
